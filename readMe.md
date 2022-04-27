@@ -6,6 +6,10 @@ Bonjour tout le Monde, ce script vous permettra de vous connecter et vous mettre
 Ce script ne fonctionne pas seul, vous devez le lancer à la main et vous évite juste de faire manuellement le processus, ce n'est pas une fraude à la présence.
 
 ## Installation
+La première chose est d'avoir python3.10 installer sur votre environement (ordinateur, tablette, téléphone). 
+- [Windows](https://lmgtfy.app/?q=comment+installer+python+sur+windows)
+- [Mac](https://lmgtfy.app/?q=commetn+installer+python+sur+mac)
+- [Linux](https://lmgtfy.app/?q=commetn+installer+python+sur+linux)
 
 Vous devrez installer le package selenium
 ```bash
