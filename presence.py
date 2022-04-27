@@ -9,14 +9,14 @@ driver.maximize_window()
 driver.get('https://www.leonard-de-vinci.net/');
 
 #connexion
-WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="login"]'))).send_keys('benjamin.burstein@edu.devinci.fr')
+WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="login"]'))).send_keys('email@edu.devinci.fr')
 WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="btn_next"]'))).click()
-WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="passwordInput"]'))).send_keys('Julie121018')
+WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="passwordInput"]'))).send_keys('password')
 WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="submitButton"]'))).click()
 
 
 # présence à partir du menu principale
-WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="main"]/div/div[5]/div[1]/a[13]'))).click()
+WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, '//*[@id="main"]/div[2]/div/ul/div/a'))).click()
 
 for x in range(1, 5):
     boutton_xpath = '//*[@id="body_presences"]/tr['
