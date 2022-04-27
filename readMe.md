@@ -1,4 +1,4 @@
-# Foobar
+# Présence automatique Devinci
 
 Bonjour tout le Monde, ce script vous permettra de vous connecter et vous mettre présent automatiquement sur le [portail devinci](https://www.leonard-de-vinci.net/) au lancement du script.
 
